@@ -14,4 +14,4 @@ chmod +x $jh/wallpaper.sh
 
 # Run Satan Wallpaper
 
-cat $jh/.person | $jh/wallpaper.sh
+cat $jh/.person | xargs $jh/wallpaper.sh

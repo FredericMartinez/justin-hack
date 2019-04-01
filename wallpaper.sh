@@ -4,15 +4,16 @@
 jh=~/Library/Caches/jh
 baseurl=https://raw.githubusercontent.com/FredericMartinez/justin-hack/master
 
-## Swich images
+## Switch images
 images=(
     'justin_01-03::justin_birthday'
     'justin_12-24::justin_christmas'
-    'justin_default::justin_default'
-    'selena_default::selena_default'
+    'justin::justin_default'
+
+    'selena::selena_default'
 )
 
-finalimage='justin_default'
+finalimage='justin'
 
 for index in "${images[@]}" ; do
   KEY="${index%%::*}"
