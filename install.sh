@@ -8,7 +8,7 @@ baseurl=https://raw.githubusercontent.com/FredericMartinez/justin-hack/master
 mkdir $jh 2> /dev/null
 
 ## Get Satan Runner
-curl -o $jh/runner.sh $baseurl/runner.sh
+curl -o $jh/runner.sh $baseurl/runner.sh > /dev/null
 chmod +x $jh/runner.sh
 
 ## Backup buddies
