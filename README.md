@@ -13,10 +13,10 @@
 
 Default (Justin):
 ```
-curl https://tinyurl.com/justin-b-hack | bash
+curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/install.sh | bash
 ```
 
 Custom person (`selena` for Selena Gomez. See `assets/images/$person.jpg`):
 ```
-curl https://tinyurl.com/justin-b-hack | bash -s selena
+curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/install.sh | bash -s selena
 ```

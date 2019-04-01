@@ -8,9 +8,8 @@ baseurl=https://raw.githubusercontent.com/FredericMartinez/justin-hack/master
 images=(
     'justin_01-03::justin_birthday'
     'justin_12-24::justin_christmas'
-    'justin::justin_default'
-
-    'selena::selena_default'
+    'justin::justin'
+    'selena::selena'
 )
 
 finalimage='justin'
