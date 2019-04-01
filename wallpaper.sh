@@ -27,5 +27,8 @@ done
 
 
 ## And the magic happens
-curl -o $jh/$1.jpg $baseurl/assets/images/$finalimage.jpg > /dev/null
+if [ ! -f $jh/$1.jpg ]; then
+    curl -o $jh/$1.jpg $baseurl/assets/images/$finalimage.jpg > /dev/null
+fi
+
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'$jh'/'$finalimage.jpg'"'

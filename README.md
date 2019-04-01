@@ -20,3 +20,11 @@ Custom person (`selena` for Selena Gomez. See `assets/images/$person.jpg`):
 ```
 curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/install.sh | bash -s selena
 ```
+
+## Uninstall
+
+Open 
+```
+crontab -e
+```
+Delete the correct justin hack line
