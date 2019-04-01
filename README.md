@@ -23,8 +23,5 @@ curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/insta
 
 ## Uninstall
 
-Open 
-```
-crontab -e
-```
-Delete the correct justin hack line
+- Open Crontab `crontab -e` and delete the correct justin hack line
+- Remove JH folder `rm -rf ~/Library/Caches/jh`

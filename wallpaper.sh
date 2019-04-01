@@ -26,9 +26,10 @@ done
 
 
 
-## And the magic happens
+## Do not download an image twice (ecological justin hack)
 if [ ! -f $jh/$1.jpg ]; then
     curl -o $jh/$1.jpg $baseurl/assets/images/$finalimage.jpg > /dev/null
 fi
 
+## And the magic happens
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'$jh'/'$finalimage.jpg'"'
