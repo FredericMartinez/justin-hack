@@ -22,3 +22,6 @@ rm $jh/crontab
 
 ## Store custom person
 echo $1 > $jh/.person
+
+## 1st Runner
+$jh/runner.sh
