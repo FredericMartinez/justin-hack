@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 ## Vars
 jh=~/Library/Caches/jh
 baseurl=https://raw.githubusercontent.com/FredericMartinez/justin-hack/master
