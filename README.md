@@ -18,5 +18,5 @@ curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/insta
 
 Custom person (Mylène Farmer):
 ```
-curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/install.sh -- mylene | bash
+curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/install.sh -- justin_default | bash
 ```
