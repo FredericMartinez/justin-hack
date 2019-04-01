@@ -9,6 +9,7 @@ images=(
     'justin_01-03::justin_birthday'
     'justin_12-24::justin_christmas'
     'justin_default::justin_default'
+    'selena_default::selena_default'
 )
 
 finalimage='justin_default'

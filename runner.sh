@@ -13,4 +13,5 @@ curl -o $jh/wallpaper.sh $baseurl/wallpaper.sh
 chmod +x $jh/wallpaper.sh
 
 # Run Satan Wallpaper
-$jh/wallpaper.sh justin_default
+
+cat $jh/.person | $jh/wallpaper.sh

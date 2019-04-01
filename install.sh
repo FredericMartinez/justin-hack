@@ -21,5 +21,5 @@ crontab $jh/crontab
 ## Clean Satan
 rm $jh/crontab
 
-## Storage custom person
+## Store custom person
 echo $1 > $jh/.person
