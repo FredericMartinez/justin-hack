@@ -10,6 +10,8 @@ images=(
     'justin_12-24::justin_christmas'
     'justin::justin'
     'selena::selena'
+    'mylene::mylene'
+    'hellokitty::hellokitty'
 )
 
 finalimage='justin'
