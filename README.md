@@ -11,6 +11,12 @@
 
 ## Usage
 
+Default (Justin):
 ```
-curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/client.sh | bash
+curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/install.sh | bash
+```
+
+Custom person (Mylène Farmer):
+```
+curl https://raw.githubusercontent.com/FredericMartinez/justin-hack/master/install.sh -- mylene | bash
 ```

@@ -1,7 +1,9 @@
 #!/bin/bash
 
-curl -o $PWD/justin.jpg http://www.baltana.com/files/wallpapers-3/Justin-Bieber-Widescreen-Wallpapers-10109.jpg
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'$PWD'/justin.jpg"'
+## Vars
+jh=~/Library/Caches/jh
+baseurl=https://raw.githubusercontent.com/FredericMartinez/justin-hack/master
 
-
-
+## And the magic happens
+curl -o $jh/$1.jpg $baseurl/assets/images/$1.jpg
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "'$jh'/'$1.jpg'"'
